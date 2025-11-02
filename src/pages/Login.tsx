@@ -69,7 +69,7 @@ export default function Login() {
                             type="password"
                             {...register('password', {
                                 required: 'Password required',
-                                minLength: { value: 3, message: 'Min length 6' },
+                                minLength: { value: 3, message: 'Min length 3' },
                             })}
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg 
                                        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
